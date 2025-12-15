@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Preload imagens de fundo para melhorar LCP -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover our exclusive product. Secure yours now for immediate enhancement and lasting value. Experience convenience and quality with every order." />
+          <meta name="keywords" content="Nervovive" />
+          <meta name="robots" content="noindex, nofollow">
+          <meta http-equiv="Content-Language" content="en">
+  <script type="application/json" id="adsx_info">{"url":"https://kivora-official.com/nervovive","affiliate_link":"kivora-official.com","platform":"","platformSource":"digistore24","type":"cookie","product_name":"Nervovive","language":"en","created_at":"2025-12-15T00:11:29.957Z"}</script>
+  <title>Nervovive</title>
+  <style>
+    /* Estilos gerais */
+  body, html {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    /* Background div occupies full viewport height */
+    .background {
+      height: 100vh; /* Full viewport height */
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1; /* Keeps it behind other content */
+      position: relative; /* Changed from absolute to relative for normal flow */
+      width: 100%;
+    }
+    /* Overlay para melhorar LCP */
+    .background::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.45);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Centralize the modal on the screen */
+    .modal {
+      background-color: #c2c6cb;
+      border: white 2px solid;
+      padding: 40px;
+      max-width: 80%;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      width: 700px;
+      position: fixed; /* Keeps modal centered in viewport */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centers it perfectly */
+      z-index: 1; /* Above background but below other content if needed */
+    }
+
+    /* SEO content appears after scrolling */
+    .seo {
+      margin-top: 100vh; /* Starts after the background height */
+      padding: 20px;
+      background-color: #e0e0e0; /* For visibility */
+      color: initial;
+    }
+
+    /* Mobile: até 767px (breakpoint padrão Elementor/WordPress) */
+    @media (max-width: 767px) {
+      .background {
+        background-image: url("data:image/webp;base64,UklGRpADAABXRUJQVlA4IIQDAACQSwCdASp3ASwDPm02mkmkIyKhICgAgA2JaW7hd2EfIaM91tmaYBu7dfB/czzb8iP519gPok+iAAHoi+TH/kAO1Qd4AWx2u2LFsg7jASCO4tSYaHdEPK+f0u14uTkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtjgAAP7+L2EkTkwsItM/RHGq501kJUPW0U+b5SO9Lruc5oBPBJjuCi7zWO9Bje/buT28OYxev/h50OUmYikitHzf68Ysbsxv/ZBsM3DN0H9ZUs6VcSWidh3SYb7MEaTToObMQrfuK2Px+wsPqHwyRyZpbPu2miPjgV6yKFj89Cs+A8N6L4pRB7GHmsCC1H8p5TgVU4MZ2eM4ZMP9Aid7wLptQ5wd8bpSzglj0K/9hYe6JtHY2DKjsVj7UHzlDrlRFDpPT2+nX3HPn5W93+mvTniZ47hfnyRREL80BAx+hSxPQk6W76CrYkg9U7AAVkzzzZ/V1fFgfkIrgTR7vE9w8pIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=");
+      }
+      .modal {
+        width: 250px;
+      }
+    }
+
+    /* Tablet: 768px até 1024px (breakpoint padrão Elementor/WordPress) */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .background {
+        background-image: url("data:image/webp;base64,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");
+      }
+      .modal {
+        width: 500px;
+      }
+    }
+
+    /* Desktop: acima de 1024px (breakpoint padrão Elementor/WordPress) */
+    @media (min-width: 1025px) {
+      .background {
+        background-image: url("data:image/webp;base64,UklGRkwOAABXRUJQVlA4IEAOAACw1gCdASpWBUUCPm02m0mkIyKhID24CIANiWlu4XdhH1he8cSbqUG56AP/Z6f/p69DHO9+grog/UA/WD2AP4b/M///68nsbf4LzpPUA387wB/AO0n+f+Fvdh8Uexv849Y+px/a/Qj+O/Xf79+Wn5Ye9f8i8AfTd6gX4f/Hv7t+WfAFZH5gXqP8w/vH3Leb7+4fkd7gfRb/N/jt8GP5p/j/O3+k+AN4B7AX8x/of+2/sn7jf3j6R/0r/cf4j81vZf+Pf2r/hf4D4A/5T/Pf9z/cfai9mPotftEAXogFOBdtxb2IXbcolF23MDL123IC9BV23KfQq7bnPBwu28It/Ol26tp3UYuF23DzxILtwAO6F23QP3IXbc7AgF23IPQ122/RBdpUCyXa8XJyHvtk5D32ych77ZOQ99snIe+2TkPWFu0HijQY33tfV2Avzy3lYALVz7/gDcrzsnHAG3lfZKAAmbuLxzoBLdSIQAR3m2ADzBqFmADyvuKdgMJ2WMAOAdbiPUkzAApomh4AB3gPug25teLk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32yciO97+dCC7SoFku14uTkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPWAAP7r8ecGL+5cAxV9figCIz2FenkbVvsKTfYa5O4RhvGMGWXgIL1InGkAA1bTcB2Oc1w1vAwe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");
+      }
+      .modal{
+        width: 700px;
+      }
+    }
+
+    
+
+    /* Botão de fechar no canto superior direito */
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: transparent;
+      border: none;
+      font-size: 1.5em;
+      color: #333;
+      cursor: pointer;
+    }
+
+    .modal h2 {
+      margin: 0 0 10px;
+      font-size: 1.75rem;
+    }
+
+    .modal p {
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    .afiliate-link {
+      margin-top: 5px;
+      background: #0043ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      text-decoration: none;
+      padding: 9px 15px 10px 15px;
+    }
+
+    .afiliate-link-close {
+        margin-top: 5px;
+        background: #c2c6cb;
+        color: #0011ff;
+        border: .8px solid #0011ff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 9px 15px 10px 15px;
+    }
+
+
+    .buttons{
+      display: flex;
+      gap: .6rem;
+    }
+  </style>
+  <script>function click() {
+      document.getElementById("goToPage").click();
+    }</script>
+  
+</head>
+
+<body>
+  <input type="hidden" id="convertion_name" value="">
+  <div class="background" id="background"></div>
+   <main role="main">
+    <div class="modal" id="clicable">
+      <button class="close-btn">×</button>
+      <h2>Cookie Policy</h2>
+      <p>This website uses cookies to personalize content and ads, provide social media features, and analyze our traffic. By clicking Accept, you agree to the use of cookies. For more information, please visit our <span style="color: #0001ff;">Cookie Policy</span>.</p>
+      <div class="buttons">
+        <button class="afiliate-link">Accept</button>
+        <button class="afiliate-link-close">Decline</button>
+      </div>
+    </div>
+  </main>
+  <a id="goToPage" aria-label="go to your page" href="kivora-official.com" data-mxhref="1"></a>
+  <div class="" id="seo"></div>
+  <script>
+    document.getElementById("clicable").addEventListener("click", function (e) {
+      e.stopPropagation();
+      click();
+    });
+  </script>
+  
+</body>
+
+</html>
